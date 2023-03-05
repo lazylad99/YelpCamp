@@ -75,3 +75,30 @@ module.exports.descriptions = [
     
     If you’re up for roughing it, it’s worth it for the views. Each site, tucked among moss-covered trees, offers a view of the whale-filled cove. After spending the night under the brilliant starry skies, cruising the bay is a great way to spend the day.`
 ]
+
+// module.exports.images = [
+//     {
+//         url: 'https://res.cloudinary.com/dne1rautf/image/upload/v1677999946/YelpCamp/wjokszsvhzw65d50yny5.jpg',
+//         filename: 'YelpCamp/wjokszsvhzw65d50yny5'
+//     },
+//     {
+//         url: 'https://res.cloudinary.com/dne1rautf/image/upload/v1677999945/YelpCamp/xuqyeoaztxjyfccue3vo.jpg',
+//         filename: 'YelpCamp/xuqyeoaztxjyfccue3vo'
+//     },
+//     {
+//         url: 'https://res.cloudinary.com/dne1rautf/image/upload/v1677999945/YelpCamp/dtohcovoewkv6botsoeh.jpg',
+//         filename: 'YelpCamp/dtohcovoewkv6botsoeh'
+//     },
+//     {
+//         url: 'https://res.cloudinary.com/dne1rautf/image/upload/v1677999945/YelpCamp/cam4dkrstglfm4pqv1cr.jpg',
+//         filename: 'YelpCamp/cam4dkrstglfm4pqv1cr'
+//     },
+//     {
+//         url: 'https://res.cloudinary.com/dne1rautf/image/upload/v1677999944/YelpCamp/y7o1jiuslleigiwntz7c.jpg',
+//         filename: 'YelpCamp/y7o1jiuslleigiwntz7c'
+//     },
+//     {
+//         url: 'https://res.cloudinary.com/dne1rautf/image/upload/v1677999944/YelpCamp/wygbrw3qqb3puzqcxy39.jpg',
+//         filename: 'YelpCamp/wygbrw3qqb3puzqcxy39'
+//     },
+// ]
