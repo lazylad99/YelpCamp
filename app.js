@@ -22,7 +22,7 @@ const reviewRoutes = require('./routes/reviews');
 
 const MongoStore = require('connect-mongo');
 
-const dbUrl = process.env.DB_URL || 'mongodb://127.0.0.1:27017/yelp-camp';
+const dbUrl = 'mongodb://127.0.0.1:27017/yelp-camp';
 mongoose.set('strictQuery', true);
 
 mongoose.connect(dbUrl, {
@@ -82,8 +82,9 @@ const scriptSrcUrls = [
     "https://cdnjs.cloudflare.com/",
     "https://cdn.jsdelivr.net/",
 ];
-//This is the array that needs added to
+
 const styleSrcUrls = [
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js",
     "https://cdn.jsdelivr.net/npm/",
     "https://kit-free.fontawesome.com/",
     "https://stackpath.bootstrapcdn.com/",

@@ -1,8 +1,11 @@
+if (process.env.NODE_ENV !== 'production') {
+    require('dotenv').config();
+}
+
 const mongoose = require('mongoose')
 const cities = require('./cities');
 const { places, descriptors, descriptions } = require('./seedHelpers');
 const Campground = require('../models/campground')
-mongoose.set('strictQuery', true);
 
 const dbUrl = process.env.DB_URL || 'mongodb://127.0.0.1:27017/yelp-camp';
 mongoose.set('strictQuery', true);
